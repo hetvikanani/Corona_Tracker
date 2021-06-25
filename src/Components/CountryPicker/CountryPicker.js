@@ -16,6 +16,7 @@ const CountryPicker = ({ countryChange }) => {
       <NativeSelect
         onChange={(e) => {
           countryChange(e.target.value.split(".."));
+          console.log('asd')
         }}
       >
         <option value="">Global</option>
