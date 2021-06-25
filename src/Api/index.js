@@ -17,7 +17,7 @@ const fetchData = async (country) => {
       lastUpdate,
     };
   } catch (e) {
-    console.log(e,"as");
+    console.log(e);
   }
 };
 export const fetchDailyData = async (code) => {

@@ -15,7 +15,7 @@ const App = () => {
     const responce = async () => {
       const res = await fetchData();
       setData({ ...data, data: res });
-      console.log("aa");
+     
     };
     const fetchDailyDataFunction = async () => {
       const data = await fetchDailyData();
